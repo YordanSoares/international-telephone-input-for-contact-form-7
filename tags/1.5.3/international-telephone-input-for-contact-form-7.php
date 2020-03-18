@@ -4,7 +4,7 @@
  * Plugin Name: International Telephone Input for Contact Form 7
  * Plugin URI: https://www.facebook.com/damiarita
  * Description: This plugin uses a jQuery plugin called International Telephone Input to add the capability to choose your country code in a flag dropdow.
- * Version: 1.5.2
+ * Version: 1.5.3
  * Author: Damià Rita
  * Author URI: https://www.facebook.com/damiarita
  * Contributors: yordansoares
