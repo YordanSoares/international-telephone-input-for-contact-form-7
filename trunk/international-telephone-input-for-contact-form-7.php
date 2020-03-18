@@ -27,7 +27,7 @@ define('ITI4CF7_INCLUDES_URL', ITI4CF7_URL . 'includes/');
 
 /*Activation checks*/ 
 require_once( ITI4CF7_INCLUDES_DIR . '/activation-checks.php');
- 
+
 /*Contact form 7 api use*/
 require_once( ITI4CF7_INCLUDES_DIR . '/form-tag.php');
  
@@ -39,3 +39,11 @@ require_once( ITI4CF7_INCLUDES_DIR . '/tag.php');
 
 /* Special mail tags*/
 require_once( ITI4CF7_INCLUDES_DIR . '/mail-tags.php');
+
+/**
+ * Load plugin textdomain.
+ */
+function iti4cf7_load_textdomain() {
+  load_plugin_textdomain('international-telephone-input-for-contact-form-7', false, dirname(plugin_basename(__FILE__)) . '/languages');
+}
+add_action('init', 'iti4cf7_load_textdomain');
