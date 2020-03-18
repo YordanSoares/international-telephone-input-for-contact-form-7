@@ -7,6 +7,7 @@
  * Version: 1.5.2
  * Author: Damià Rita
  * Author URI: https://www.facebook.com/damiarita
+ * Contributors: yordansoares
  * Text domain: international-telephone-input-for-contact-form-7
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
