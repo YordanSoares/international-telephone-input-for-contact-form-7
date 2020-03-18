@@ -1,0 +1,88 @@
+# Copyright (C) 2020 Damià Rita
+# This file is distributed under the same license as the International Telephone Input for Contact Form 7 plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: International Telephone Input for Contact Form 7 1.5.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/international-telephone-input-for-contact-form-7\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-03-17T00:14:32-04:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: international-telephone-input-for-contact-form-7\n"
+
+#. Plugin Name of the plugin
+msgid "International Telephone Input for Contact Form 7"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.facebook.com/damiarita"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin uses a jQuery plugin called International Telephone Input to add the capability to choose your country code in a flag dropdow."
+msgstr ""
+
+#. Author of the plugin
+msgid "Damià Rita"
+msgstr ""
+
+#. translators: 1. Contact Form 7 plugin URL
+#: activation-checks.php:22
+msgid "Sorry, but <strong>Contact Form 7 - International Telephone Input</strong> requires <a href=\"%s\"><strong>Contact Form 7</strong></a> plugin."
+msgstr ""
+
+#. translators: 1. Contact Form 7 plugin URL
+#: activation-checks.php:22
+msgid "https://wordpress.org/plugins/contact-form-7/"
+msgstr ""
+
+#: tag.php:7
+msgid "International Telephone"
+msgstr ""
+
+#: tag.php:15
+msgid "Generate a input field for enter international telephone number with a flag dropdown."
+msgstr ""
+
+#: tag.php:25
+#: tag.php:28
+msgid "Field type"
+msgstr ""
+
+#: tag.php:29
+msgid "Required field"
+msgstr ""
+
+#: tag.php:35
+msgid "Name"
+msgstr ""
+
+#: tag.php:40
+msgid "Id attribute"
+msgstr ""
+
+#: tag.php:45
+msgid "Class attribute"
+msgstr ""
+
+#: tag.php:50
+msgid "Field width in px (optional)"
+msgstr ""
+
+#: tag.php:55
+msgid "Preferred Countries (optional, two-letters country codes hyphen separated)"
+msgstr ""
+
+#. translators: 1. Two-letter country codes placeholder
+#: tag.php:56
+msgid "gb-us"
+msgstr ""
+
+#: tag.php:68
+msgid "Insert Tag"
+msgstr ""
