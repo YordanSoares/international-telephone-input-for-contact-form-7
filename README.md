@@ -1,7 +1,7 @@
 # International Telephone Input for Contact Form 7
 - Contributors: damiarita, yordansoares
 - Tags: contact form 7, cf7 international phone input, international phone input, country code, telephone flags input
-- Stable tag: 1.5.3
+- Stable tag: 1.5.4
 - Requires at least: 4.0 +
 - Tested up to: 5.4
 - Requires PHP: 7.0
@@ -62,6 +62,7 @@ This plugin uses the [International Telephone Input](https://intl-tel-input.com/
 ## Screenshots
 
 1. International telephone input
+![International telephone input](https://raw.githubusercontent.com/YordanSoares/international-telephone-input-for-contact-form-7/master/assets/screenshot-1.png)
 
 
 ## Changelog
