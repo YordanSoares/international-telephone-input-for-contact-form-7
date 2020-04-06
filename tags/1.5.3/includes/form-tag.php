@@ -90,15 +90,15 @@ function wpcf7_intl_tel_formtag_handler ( $tag ){
 }
 
 function wpcf7_intl_tel_add_static_files(){
-	$extension='.min.js';
+	$min='.min';
 	if( defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ) {
-		$extension='.js';
+		$min='';
 	}
   
-    wp_enqueue_script( 'wpcf7-intl-tel-lib-js', 'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.3/js/intlTelInput'.$extension ,  array( 'jquery' ), '12.1.3', true);
-    wp_enqueue_style( 'wpcf7-intl-tel-css', 'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.3/css/intlTelInput.css', '', '12.1.3', 'all');
-    wp_enqueue_script( 'wpcf7-intl-tel-js', ITI4CF7_ASSETS_URL . 'js/script' . $extension, array('jquery', 'wpcf7-intl-tel-lib-js'), '1.4.0', true);
-    wp_localize_script( 'wpcf7-intl-tel-js', 'wpcf7_utils_url', 'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.3/js/utils.js' );
+    wp_enqueue_script( 'wpcf7-intl-tel-lib-js', ITI4CF7_VENDOR_URL . 'intl-tel-input/js/intlTelInput'.$min .'.js' ,  array( 'jquery' ), '12.1.3', true);
+    wp_enqueue_style( 'wpcf7-intl-tel-css', ITI4CF7_VENDOR_URL . 'intl-tel-input/css/intlTelInput'. $min .'.css' , '', '12.1.3', 'all');
+    wp_enqueue_script( 'wpcf7-intl-tel-js', ITI4CF7_ASSETS_URL . 'js/script' . $min . '.js', array('jquery', 'wpcf7-intl-tel-lib-js'), '1.4.0', true);
+    wp_localize_script( 'wpcf7-intl-tel-js', 'wpcf7_utils_url', ITI4CF7_VENDOR_URL . 'intl-tel-input/js/utils.js' );
 } 
 
 function wpcf7_intl_tel_random_string($length = 10) {

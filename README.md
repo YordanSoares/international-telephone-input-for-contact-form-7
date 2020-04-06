@@ -8,28 +8,28 @@
 - License: GPLv2 or later
 - License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Addon for Contact Form 7 that creates a new kind of input that allows the user to select a country of his telephone numner
-
 ## Description
 
-Addon Contact Form 7 that creates a new kind of input that allows the user to select a country of his telephone numnerContact Form 7 addon that creates a new kind of input that allows the user to select a country of his telephone numner
-
-This plugin will use a jQuery plugin called [International Telephone Input](http://jackocnr.com/intl-tel-input.html) to create a new type of input for Contact Form 7 that shows country flags to write a prefix of the telephone number.
+Addon for Contact Form 7 that creates a new type of input for entering and validating international telephone numbers. It adds a flag dropdown, detects the user's country, displays a relevant placeholder and provides formatting/validation methods.
 
 ### How to use it?
 
-Once you have installed and activated your plugin, a new type of field will be available in your Contact Form 7 forms. In order to add it to your form, you can either click on the "International Telephone" button above your form editor, or add the shortcode like: [intl_tel* {your-phone}] ({your-phone} has to be replaced by the name you want to give the field and * is optional and makes the field compulsory).
+Once you have installed and activated your plugin, a new type of input field will be available in your Contact Form 7 forms. In order to add it to your form, you can either click on the "International Telephone" button above your form editor, or add the shortcode like: `[intl_tel* {your-phone}]`. Replace `{your-phone}` by the name do you want to give the field. Optionally, you can use the asterisk (*) to makes the field required.
 
-To recover the field's info on your email, use this tag: [{your-phone}]. It will print something like +12025550109
+To display the field's info on your email, use this tag: `[{your-phone}]`. It will display something like +12025550109
 
 ### Aditional info in your email
 
 You can also recover specific parts of the telephone number: the name of the country it refers to, the country code, the number without the country code. Use this tags:
 
-1. [{your-phone}-cf7it-country-name]: It prints the name of the country. For the example above: United States
-2. [{your-phone}-cf7it-country-code]: It prints the country code of the phone number. For the example above: 1
-3. [{your-phone}-cf7it-country-iso2]: It prints the country iso code. For the example above: us
-3. [{your-phone}-cf7it-national]: It prints the phone number without international prefix. For the example above: 2025550109
+* `[{your-phone}-cf7it-country-name]`: It prints the name of the country. For the example above: United States
+* `[{your-phone}-cf7it-country-code]`: It prints the country code of the phone number. For the example above: 1
+* `[{your-phone}-cf7it-country-iso2]`: It prints the country iso code. For the example above: us
+* `[{your-phone}-cf7it-national]`: It prints the phone number without international prefix. For the example above: 2025550109
+
+### Third-party software
+
+This plugin uses the [International Telephone Input](https://intl-tel-input.com/) JavaScript library and the [Free IP Geolocation API](https://freegeoip.app/).
 
 ## Installation
 
@@ -66,9 +66,15 @@ You can also recover specific parts of the telephone number: the name of the cou
 
 ## Changelog
 
-### 1.5.3
-* Update the API service to freegeoip.app (up to 15,000 queries per hour).
+### 1.5.4 — April 06, 2020
+* Added a check to verify if Contact Form 7 is activated.
+* Added support for Retina screens. Thanks to [Aboobacker P Ummer (@abooze)](https://wordpress.org/support/topic/suggestion-flags-not-loading-on-retina-screen/) for reporting.
+* Fixed some typos in README.md. Thanks to [@sylvain68](https://wordpress.org/support/topic/slight-error-in-the-description-on-the-plugins-wordpress-page/) for reporting.
+
+### 1.5.3 — April 03, 2020
 * Code refactored.
+* Update the API service to freegeoip.app (up to 15,000 queries per hour).
+* Now the plugin includes the "International Telephone Input" library built-in.
 * Add new info tags in header comment.
 * Fix text domain in plugin header comment.
 * Fix some typos and strings without translation functions.

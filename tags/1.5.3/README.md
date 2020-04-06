@@ -63,12 +63,12 @@ You can also recover specific parts of the telephone number: the name of the cou
 
 1. International telephone input
 
-
 == Changelog ==
 
 = 1.5.3 =
-* Update the API service to freegeoip.app (up to 15,000 queries per hour).
 * Code refactored.
+* Update the API service to freegeoip.app (up to 15,000 queries per hour).
+* Now the plugin includes the "International Telephone Input" library built-in.
 * Add new info tags in header comment.
 * Fix text domain in plugin header comment.
 * Fix some typos and strings without translation functions.
