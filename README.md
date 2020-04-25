@@ -1,7 +1,9 @@
+<a href="#!"><img src="https://github.com/YordanSoares/international-telephone-input-for-contact-form-7/raw/master/assets/banner-1544x500.png" alt="Plugin banner" title="International Telephone Input for Contact Form 7"/></a>
+
 # International Telephone Input for Contact Form 7
 - Contributors: damiarita, yordansoares
 - Tags: contact form 7, cf7 international phone input, international phone input, country code, telephone flags input
-- Stable tag: 1.5.4
+- Stable tag: 1.5.5
 - Requires at least: 4.0 +
 - Tested up to: 5.4
 - Requires PHP: 7.0
@@ -66,6 +68,9 @@ This plugin uses the [International Telephone Input](https://intl-tel-input.com/
 
 
 ## Changelog
+
+### 1.5.5 — April 25, 2020
+* Switch API service from **freegeoip.app** (it no longer works) to **extreme-ip-lookup.com**, which offer free usage until 20 requests per minute and 50,000 requests per month.
 
 ### 1.5.4 — April 06, 2020
 * Added a check to verify if Contact Form 7 is activated.

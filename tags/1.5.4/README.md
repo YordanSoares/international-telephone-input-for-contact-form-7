@@ -29,7 +29,7 @@ You can also recover specific parts of the telephone number: the name of the cou
 * `[{your-phone}-cf7it-country-iso2]`: It prints the country iso code. For the example above: us
 * `[{your-phone}-cf7it-national]`: It prints the phone number without international prefix. For the example above: 2025550109
 
-= Third-party software
+= Third-party software =
 
 This plugin uses the [International Telephone Input](https://intl-tel-input.com/) JavaScript library and the [Free IP Geolocation API](https://freegeoip.app/).
 
