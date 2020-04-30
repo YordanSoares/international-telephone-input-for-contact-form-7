@@ -31,7 +31,7 @@ You can also recover specific parts of the telephone number: the name of the cou
 
 = Third-party software =
 
-This plugin uses the [International Telephone Input](https://intl-tel-input.com/) JavaScript library and the [Free IP Geolocation API](https://freegeoip.app/).
+This plugin uses the [International Telephone Input](https://intl-tel-input.com/) JavaScript library and the [eXTReMe-IP-LOOKUP.com API](https://extreme-ip-lookup.com).
 
 == Installation ==
 

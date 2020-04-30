@@ -31,7 +31,12 @@ You can also recover specific parts of the telephone number: the name of the cou
 
 ### Third-party software
 
-This plugin uses the [International Telephone Input](https://intl-tel-input.com/) JavaScript library and the [Free IP Geolocation API](https://freegeoip.app/).
+This plugin uses the [International Telephone Input](https://intl-tel-input.com/) JavaScript library and the [eXTReMe-IP-LOOKUP.com API](https://extreme-ip-lookup.com).
+
+## Screenshots
+
+1. International telephone input
+![International telephone input](https://raw.githubusercontent.com/YordanSoares/international-telephone-input-for-contact-form-7/master/assets/screenshot-1.png)
 
 ## Installation
 
@@ -57,15 +62,6 @@ This plugin uses the [International Telephone Input](https://intl-tel-input.com/
 4. Copy to [root folder]/wp-content/plugins/ the plugin directory you just descompress
 5. Go to your Dashboard » Plugins » Find the plugin and click on "Activate" option
 6. Enjoy the plugin!
-
-## Frequently Asked Questions
-
-
-## Screenshots
-
-1. International telephone input
-![International telephone input](https://raw.githubusercontent.com/YordanSoares/international-telephone-input-for-contact-form-7/master/assets/screenshot-1.png)
-
 
 ## Changelog
 
