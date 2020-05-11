@@ -3,9 +3,9 @@
 # International Telephone Input for Contact Form 7
 - Contributors: damiarita, yordansoares
 - Tags: contact form 7, cf7 international phone input, international phone input, country code, telephone flags input
-- Stable tag: 1.5.5
+- Stable tag: 1.5.6
 - Requires at least: 4.0 +
-- Tested up to: 5.4
+- Tested up to: 5.4.1
 - Requires PHP: 7.0
 - License: GPLv2 or later
 - License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -64,6 +64,10 @@ This plugin uses the [International Telephone Input](https://intl-tel-input.com/
 6. Enjoy the plugin!
 
 ## Changelog
+
+### 1.5.6 — May 11, 2020
+* Fixed the flags alignment in Retina screens.
+* Improvement: now the file size of flags images are 69% smaller. Thanks to [@marcusasiabc](https://wordpress.org/support/topic/suggestion-flag-images-compression/).
 
 ### 1.5.5 — April 25, 2020
 * Switch API service from **freegeoip.app** (it no longer works) to **extreme-ip-lookup.com**, which offer free usage until 20 requests per minute and 50,000 requests per month.
