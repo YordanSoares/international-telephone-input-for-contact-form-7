@@ -4,7 +4,7 @@
  * Plugin Name: International Telephone Input for Contact Form 7
  * Plugin URI: https://wordpress.org/plugins/international-telephone-input-for-contact-form-7/
  * Description: Addon for Contact Form 7 that creates a new type of input for entering and validating international telephone numbers. It adds a flag dropdown, detects the user's country, displays a relevant placeholder and provides formatting/validation methods.
- * Version: 1.5.6
+ * Version: 1.5.7
  * Author: Damià Rita and Yordan Soares
  * Author URI: https://wordpress.org/plugins/international-telephone-input-for-contact-form-7/
  * Contributors: damiarita, yordansoares
@@ -31,7 +31,7 @@ if (defined('WPCF7_VERSION')) {
    * Prepare the constants
    */
 
-  define('ITI4CF7_VERSION', '1.5.6');
+  define('ITI4CF7_VERSION', '1.5.7');
   define('ITI4CF7_BASENAME', plugin_basename(__FILE__));
   define('ITI4CF7_DIR', plugin_dir_path(__FILE__));
   define('ITI4CF7_URL', plugin_dir_url(__FILE__));
