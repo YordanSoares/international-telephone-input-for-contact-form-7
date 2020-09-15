@@ -37,19 +37,23 @@ function wpcf7_intl_tel_formtag_handler ( $tag ){
 	endif;
 	$atts['aria-invalid'] = $validation_error ? 'true' : 'false';
 
-	$placeholder = (string) reset( $tag->values );
+	$value = (string) reset( $tag->values );
 
 	if ( $tag->has_option( 'placeholder' ) || $tag->has_option( 'watermark' ) ) {
-		$atts['placeholder'] = $placeholder;
+		$atts['placeholder'] = $value;
+		$value = '';
 	}
-	if ( $tag->has_option('size') ):
+	if ( $tag->has_option( 'size' ) ):
 		$atts['size'] = $tag->get_option('size', '', true);
 	endif;
-	if ( $tag->has_option('preferredCountries') ):
-		$atts['data-preferredcountries'] = $tag->get_option('preferredCountries', '', true);
+	if ($tag->has_option('initialCountry')) :
+		$atts['data-initialcountry'] = $tag->get_option('initialCountry', '', true);
 	endif;
+	if ( $tag->has_option( 'preferredCountries' ) ):
+		$atts['data-preferredcountries'] = $tag->get_option('preferredCountries', '', true);
+	endif;	
 
-	$value = $tag->get_default_option();
+	$value = $tag->get_default_option($value);
 	$value = wpcf7_get_hangover( $tag->name, $value );
 
 	$atts['value'] = $value;

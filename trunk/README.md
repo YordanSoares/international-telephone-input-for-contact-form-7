@@ -1,9 +1,9 @@
 === International Telephone Input for Contact Form 7 ===
 Contributors: damiarita, yordansoares
 Tags: contact form 7, cf7 international phone input, international phone input, country code, telephone flags input
-Stable tag: 1.5.6
+Stable tag: 1.5.7
 Requires at least: 4.0 +
-Tested up to: 5.4.1
+Tested up to: 5.5
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -66,6 +66,10 @@ This plugin uses the [International Telephone Input](https://intl-tel-input.com/
 1. International telephone input
 
 == Changelog ==
+
+= 1.5.7 — Sep 15, 2020 =
+* Added new options: Default or placeholder value. Now you can set a default or placeholder value for the telephone input.
+* Added new option: Initial Country. Now you can set a initial country by default. When this option is set, the IP lookup feature will be disabled.
 
 = 1.5.6 — May 11, 2020 =
 * Fixed the flags alignment in Retina screens.
