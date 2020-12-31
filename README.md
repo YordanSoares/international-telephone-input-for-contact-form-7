@@ -5,7 +5,7 @@
 - Tags: contact form 7, cf7 international phone input, international phone input, country code, telephone flags input
 - Stable tag: 1.5.7
 - Requires at least: 4.0 +
-- Tested up to: 5.5
+- Tested up to: 5.6
 - Requires PHP: 7.0
 - License: GPLv2 or later
 - License URI: https://www.gnu.org/licenses/gpl-2.0.html
