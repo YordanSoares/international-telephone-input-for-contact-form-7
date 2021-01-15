@@ -64,6 +64,8 @@ This plugin uses the [International Telephone Input](https://intl-tel-input.com/
 == Screenshots ==
 
 1. International telephone input
+2. Adding a initial country. Now you can set a initial country by default. When this option is set, the IP lookup feature will be disabled.
+3. Adding a default or placeholder value. Now you can set a default or placeholder value for the telephone input.
 
 == Changelog ==
 
