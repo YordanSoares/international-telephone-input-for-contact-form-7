@@ -42,9 +42,6 @@ if (defined('WPCF7_VERSION')) {
   define('ITI4CF7_INCLUDES_URL', ITI4CF7_URL . 'includes/');
   define('ITI4CF7_VENDOR_URL', ITI4CF7_URL . 'vendor/');
 
-  /*Activation checks*/
-  require_once(ITI4CF7_INCLUDES_DIR . '/activation-checks.php');
-
   /*Contact form 7 api use*/
   require_once(ITI4CF7_INCLUDES_DIR . '/form-tag.php');
 
