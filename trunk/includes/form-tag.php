@@ -87,7 +87,7 @@ function wpcf7_intl_tel_formtag_handler ( $tag ){
 	$atts_country_iso= wpcf7_format_atts( $atts_country_iso);
 
 	$html = sprintf(
-		'<span class="wpcf7-form-control-wrap %1$s"><input %2$s /><input %3$s /><input %5$s /><input %6$s /><input %7$s />%4$s</span>',
+		'<span class="wpcf7-form-control-wrap %1$s" data-name="%1$s"><input %2$s /><input %3$s /><input %5$s /><input %6$s /><input %7$s />%4$s</span>',
 		sanitize_html_class( $tag->name ), $atts, $atts_hidden, $validation_error, $atts_country, $atts_country_code, $atts_country_iso );
 
 	return $html;
